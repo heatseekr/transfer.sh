@@ -2,8 +2,6 @@ module github.com/dutchcoders/transfer.sh
 
 go 1.18
 
-replace github.com/heatseekr/transfer.sh-web => ../transfer.sh-web
-
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230217124315-7d5c6f04bbb8
 	github.com/ProtonMail/gopenpgp/v2 v2.5.2
